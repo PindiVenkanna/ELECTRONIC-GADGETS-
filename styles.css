@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Background color for the entire page */
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #4CAF50;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.section {
+    padding: 20px;
+}
+
+#home {
+    background: url('https://i0.wp.com/www.pakistangulfeconomist.com/wp-content/uploads/2021/10/What-we-know-of-home-appliance-industry-of-Pakistan.jpg?fit=1043%2C475&ssl=1') no-repeat center center fixed;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+<style>
+        
+        #carousel {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .slide {
+            flex: 0 0 auto;
+        }
+
+        video, iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+#reviews {
+    background-color: #f9f9f9;
+}
+
+.gridiii {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.iteml,
+.itemk,
+.itemm {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputbox {
+    margin-bottom: 15px;
+}
+
+.btni {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btni:hover {
+    background-color: #45a049;
+}
